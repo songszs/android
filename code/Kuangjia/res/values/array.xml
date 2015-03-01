@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cy">
+        <item >ExpandableListView</item>
+        <item >侧滑删除</item>
+        <item >下拉刷新 上拉加载</item>
+        <item >IndexableListView</item>
+    </string-array>
+</resources>

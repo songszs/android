@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    xmlns:swipe="http://schemas.android.com/apk/res-auto">
+
+    <com.zs.kuangjia.swipelistview.SwipeListView
+        android:id="@+id/example_lv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        swipe:swipeActionLeft="reveal"
+        swipe:swipeBackView="@+id/back"
+        swipe:swipeCloseAllItemsWhenMoveList="true"
+        swipe:swipeFrontView="@+id/front"
+        swipe:swipeMode="left"
+        swipe:swipeOffsetLeft="250dip"
+        swipeAnimationTime = "10"
+        swipe:swipeOpenOnLongPress="false" />
+    <!-- swipeFrontView - Required - front view id. 即ListView Item正常显示的控件Id，且必须与Item的布局文件中的控件id一样 -->
+    <!-- swipeBackView - Required - back view id.  手指滑动时显示的，隐藏在FrontView后面，且必须与item的布局文件中控件Id一样 -->
+    <!-- swipeActionLeft - Optional - left swipe action Default: 'reveal'  左滑的动作，默认reveal，即显示BackView，还有dismiss,choice会触发响应的方法。 -->
+    <!-- swipeActionRight - Optional - right swipe action Default: 'reveal' 同上 -->
+    <!-- swipeMode - Gestures to enable or 'none'. Default: 'both' 设置左滑、右滑、都支持 -->
+    <!-- swipeCloseAllItemsWhenMoveList - Close revealed items on list motion. Default: 'true' 当滚动listview时，关闭所有展开的Item，最好不要设置为false，由于item的复用，false存在一些问题。 -->
+    <!-- swipeOpenOnLongPress - Reveal on long press Default: 'true' 长按时触发显示 -->
+    <!-- swipeAnimationTime - item drop animation time. Default: android configuration 动画时间长度 -->
+    <!-- swipeOffsetLeft - left offset 左偏移量 -->
+    <!-- swipeOffsetRight - right offset 右偏移量 -->
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.        -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MyActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">#FFC74B46</item>
+<!--         <item name="android:displayOptions">showTitle</item> -->
+<!--         <item name="android:background">#FFC74B46</item> -->
+<!--         <item name="android:textColor">@color/color_white</item> -->
+        <item name="android:titleTextStyle">@style/AcBar_titleStyle</item>
+    </style>
+    <style name="MyActionBar2" parent="MyActionBar">
+        <item name="android:background">#FF96AA39</item>
+    </style>
+
+    <style name="MyActionBar3" parent="MyActionBar">
+        <item name="android:background">#FF3F9FE0</item>
+    </style>
+
+    <style name="MyActivity" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActivity2" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar2</item>
+    </style>
+
+    <style name="MyActivity3" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar3</item>
+    </style>
+
+    <style name="AcBar_titleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 底部导航栏：图标，文字 -->
+    <style name="main_navi_img_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">4dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="main_navi_txt_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dip</item>
+        <item name="android:layout_marginBottom">4dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textColor">@color/color_main_navi_txt</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="radio_btn_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">15dip</item>
+        <item name="android:paddingBottom">15dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/btm_navi_item_bkg</item>
+        <item name="android:textColor">@color/color_btm_navi_txt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+</resources>

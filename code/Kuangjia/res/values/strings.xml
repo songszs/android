@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KuangJia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 导航 -->
+    <string name="main_home">Home</string>
+    <string name="main_note">笔记</string>
+    <string name="main_instance">Demo</string>
+    <string name="main_others">简历 </string>
+    <!-- actionbar -->
+    <string name="action_search">搜索</string>
+    <string name="action_plus">功能</string>
+    <string name="action_album">我的相册</string>
+    <string name="action_collection">我的收藏</string>
+    <string name="action_card">我的银行卡</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feed">意见反馈</string>
+    <!-- 名字 -->
+    <string name="act_name">框架</string>
+    <string name="jckj_name">基础控件</string>
+    <string name="photo_name">拍照</string>
+    <string name="cy_name">常用</string>
+<!--     上拉刷新，下拉加载 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+<!--     名字 -->
+    <string name="radioname1">group1</string>
+    <string name="radioname2">group2</string>
+    <string name="radioname3">group3</string>
+
+</resources>
